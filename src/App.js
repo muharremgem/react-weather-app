@@ -8,7 +8,6 @@ function App() {
   const [search, setSearch] = useState("ankara");
   const [city, setCity] = useState([]);
   const [isClick, setİsClick] = useState(false);
-  
 
   async function getApi() {
     try {
@@ -24,9 +23,9 @@ function App() {
   }
   console.log(search);
   return (
-    <div className="App">
+    <div className="h-screen w-screen  bg-gray-400">
       <div>
-        <div className="mb-3 pt-0 bg-gray-200 w-full m-auto mt-8">
+        <div className=" bg-orange-500  border-[10px] max-w-screen-md mx-auto flex flex-col items-center justify-center">
           <input
             onChange={(e) => setSearch(e.target.value)}
             type="text"
