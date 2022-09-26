@@ -23,7 +23,7 @@ function App() {
   }
   console.log(search);
   return (
-    <div className="h-screen w-screen  bg-gray-400">
+    <div className="h-screen w-screen  bg-gray-400 text-center ">
       <div>
         <div className=" bg-orange-500  border-[10px] max-w-screen-md mx-auto flex flex-col items-center justify-center">
           <input
@@ -32,7 +32,12 @@ function App() {
             placeholder={search ? search : "ilGiriniz"}
             class="mt-5 px-3 py-3 placeholder-slate-300 text-slate-600 relative bg-lime-500 rounded text-sm border-0 shadow outline-none focus:outline-none focus:ring w-[20rem]"
           />
-          <button onClick={() => getApi()}>Submit</button>
+          <button
+            className="border-[2px] mt-3 w-50  bg-violet-50"
+            onClick={() => getApi()}
+          >
+            Submit
+          </button>
           {isClick && <City city={city} />}
         </div>
       </div>
