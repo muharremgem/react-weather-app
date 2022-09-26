@@ -5,7 +5,7 @@ const city = ({ city }) => {
   return (
     <div>
       <div>
-        <h1 className="text-5xl">{city.main.temp}</h1>
+        <h1 className="text-5xl">{city.main.temp} °C</h1>
         <h1 className="text-3xl">{city.name}</h1>
         <h1 className="text-2xl">{city.weather[0].main}</h1>
       </div>

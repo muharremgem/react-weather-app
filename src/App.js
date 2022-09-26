@@ -23,9 +23,9 @@ function App() {
   }
   console.log(search);
   return (
-    <div className="h-screen w-screen  bg-lime-500 text-center">
-      <div>
-        <div className=" bg-orange-500   max-w-screen-md mx-auto flex flex-col items-center justify-center">
+    <div>
+      <div className="h-screen w-screen  bg-lime-500 text-center flex flex-col items-center justify-center">
+        <div className=" bg-orange-500  w-[50rem]  max-w-screen-md mx-auto flex flex-col items-center justify-center">
           <input
             onChange={(e) => setSearch(e.target.value)}
             type="text"
@@ -38,7 +38,7 @@ function App() {
           >
             Submit
           </button>
-          <div className="mb-10 w-full h-full border border-emerald-400 rounded-full">
+          <div className="mb-10 w-full h-full  rounded-full">
             {isClick && <City city={city} />}
           </div>
         </div>
