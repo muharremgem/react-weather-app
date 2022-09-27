@@ -5,7 +5,7 @@ import City from "./City";
 
 function App() {
   const key = "8f4c38a691e3b6d6ec2f65ee89b330b0";
-  const [search, setSearch] = useState("ankara");
+  const [search, setSearch] = useState("istanbul");
   const [city, setCity] = useState([]);
   const [isClick, setİsClick] = useState(false);
 
