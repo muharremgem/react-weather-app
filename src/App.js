@@ -24,20 +24,23 @@ function App() {
   console.log(search);
   return (
     <div>
-      <div className="h-screen w-screen  bg-lime-500 text-center flex flex-col items-center justify-center">
+      <div className="h-screen w-screen text-center flex flex-col items-center justify-center bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">
         <div className="">
-          <p className="text-5xl mb-8 font-bold ">HAVA DURUMU</p>
+          <p className="text-5xl mb-8 font-bold text-sky-400/100 ">
+            HAVA DURUMU
+          </p>
         </div>
 
-        <div className=" bg-orange-500  w-[50rem]  max-w-screen-md mx-auto flex flex-col items-center justify-center">
+        <div className="bg-gradient-to-r from-cyan-500 to-blue-500  w-[50rem]  max-w-screen-md mx-auto flex flex-col items-center justify-center border rounded-3xl">
           <input
             onChange={(e) => setSearch(e.target.value)}
             type="text"
             placeholder={search ? search : "Şehir Giriniz..."}
-            class="text-transform: uppercase mt-8 px-3 py-3 placeholder-black text-slate-600 relative bg-lime-500 rounded text-sm border-0 shadow outline-none focus:outline-none focus:ring w-[20rem]"
+            class="text-transform: uppercase mt-8 px-3 py-3 placeholder-black text-slate-600 relative  rounded text-sm border-0 shadow outline-none focus:outline-none focus:ring w-[20rem] bg-pink-400 ;
+            "
           />
           <button
-            className="mt-10 mb-10 w-20 p-3 rounded-full hover:bg-orange-200 font-bold bg-lime-300"
+            className="mt-10 mb-10 w-20 p-3 rounded-full bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 "
             onClick={() => getApi()}
           >
             Submit
