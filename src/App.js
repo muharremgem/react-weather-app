@@ -25,12 +25,16 @@ function App() {
   return (
     <div>
       <div className="h-screen w-screen  bg-lime-500 text-center flex flex-col items-center justify-center">
+        <div className="">
+          <p className="text-5xl mb-8 font-bold ">HAVA DURUMU</p>
+        </div>
+
         <div className=" bg-orange-500  w-[50rem]  max-w-screen-md mx-auto flex flex-col items-center justify-center">
           <input
             onChange={(e) => setSearch(e.target.value)}
             type="text"
-            placeholder={search ? search : "İstanbul..."}
-            class="mt-8 px-3 py-3 placeholder-black text-slate-600 relative bg-lime-500 rounded text-sm border-0 shadow outline-none focus:outline-none focus:ring w-[20rem]"
+            placeholder={search ? search : "Şehir Giriniz..."}
+            class="text-transform: uppercase mt-8 px-3 py-3 placeholder-black text-slate-600 relative bg-lime-500 rounded text-sm border-0 shadow outline-none focus:outline-none focus:ring w-[20rem]"
           />
           <button
             className="mt-10 mb-10 w-20 p-3 rounded-full hover:bg-orange-200 font-bold bg-lime-300"
@@ -38,7 +42,7 @@ function App() {
           >
             Submit
           </button>
-          <div className="mb-10 w-full h-full  rounded-full">
+          <div className="mb-10 w-full h-full  rounded-full ">
             {isClick && <City city={city} />}
           </div>
         </div>
