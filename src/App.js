@@ -24,7 +24,7 @@ function App() {
   console.log(search);
   return (
     <div>
-      <div className="h-screen w-screen text-center flex flex-col items-center justify-center bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">
+      <div className="h-screen w-screen  text-center flex flex-col items-center justify-center bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">
         <div className="">
           <p className="text-5xl mb-8 font-bold text-sky-400/100 ">
             HAVA DURUMU
