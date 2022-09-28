@@ -36,7 +36,7 @@ function App() {
             onChange={(e) => setSearch(e.target.value)}
             type="text"
             placeholder={search ? search : "Şehir Giriniz..."}
-            class="text-transform: uppercase mt-8 px-3 py-3 m-5 placeholder-black text-slate-600 relative  rounded text-sm  shadow outline-none focus:outline-none focus:ring w-[20rem] bg-pink-400 ;
+            class="text-transform: uppercase mt-8 px-3 py-3 m-5 placeholder-black  font-bold text-green-500 relative  rounded text-sm  shadow outline-none focus:outline-none focus:ring w-[20rem] bg-pink-400 ;
             "
           />
           <button
