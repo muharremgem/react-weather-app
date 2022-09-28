@@ -5,8 +5,6 @@ const city = ({ city }) => {
 
   return (
     <div>
-      <div>Hava Durumu</div>
-      <br />
       <div>
         <h1 className="text-8xl">{Math.round(city.main.temp)}°C</h1>
         <h1 className="text-3xl">{city.name}</h1>

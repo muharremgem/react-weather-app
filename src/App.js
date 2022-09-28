@@ -31,16 +31,16 @@ function App() {
           </p>
         </div>
 
-        <div className="bg-gradient-to-r from-cyan-500 to-blue-500  w-[50rem]  max-w-screen-md mx-auto flex flex-col items-center justify-center border rounded-3xl">
+        <div className="bg-gradient-to-r from-cyan-500 to-blue-500  flex flex-col items-center justify-center border rounded-3xl">
           <input
             onChange={(e) => setSearch(e.target.value)}
             type="text"
             placeholder={search ? search : "Şehir Giriniz..."}
-            class="text-transform: uppercase mt-8 px-3 py-3 placeholder-black text-slate-600 relative  rounded text-sm border-0 shadow outline-none focus:outline-none focus:ring w-[20rem] bg-pink-400 ;
+            class="text-transform: uppercase mt-8 px-3 py-3 m-5 placeholder-black text-slate-600 relative  rounded text-sm  shadow outline-none focus:outline-none focus:ring w-[20rem] bg-pink-400 ;
             "
           />
           <button
-            className="mt-10 mb-10 w-20 p-3 rounded-full bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 "
+            className=" mt-10 mb-10 w-20 p-3 rounded-full bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 "
             onClick={() => getApi()}
           >
             Submit
