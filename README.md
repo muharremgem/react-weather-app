@@ -6,7 +6,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
   Project Name       |Libraries and Technologies I use     |How does my project look   
 :-------------------------|-------------------------|-------------------------
 
-[weather_App](react-weather-app-y363.vercel.app)| Html Css Js | ![weather_App](weather.gif)
+[weather_App](react-weather-app-y363.vercel.app) |   Html Css Js weatherApp |  <img src="weather.gif" width="400" height="500">
 
 
 
